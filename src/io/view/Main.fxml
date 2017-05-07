@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="523.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.gui.MainCont">
+   <children>
+      <ComboBox fx:id="diskCombo" layoutX="91.0" layoutY="14.0" prefHeight="31.0" prefWidth="225.0" />
+      <Label layoutX="14.0" layoutY="19.0" text="Disk Seçin" />
+      <ListView fx:id="list" layoutX="15.0" layoutY="98.0" prefHeight="414.0" prefWidth="303.0" />
+      <RadioButton fx:id="radioKopyala" layoutX="15.0" layoutY="62.0" mnemonicParsing="false" text="Kopyala" />
+      <RadioButton fx:id="radioTasi" layoutX="103.0" layoutY="62.0" mnemonicParsing="false" text="Taşı" />
+      <Button layoutX="238.0" layoutY="57.0" mnemonicParsing="false" onAction="#onClickYap" prefHeight="31.0" prefWidth="80.0" text="Yap" />
+   </children>
+</AnchorPane>
